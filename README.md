@@ -1,9 +1,5 @@
 **Only PNG Image** files should be used as cover image and final output image.
 
-## Getting Started
-
-Clone repository and enter the repository folder.
-
 ### Prerequisites
 
 Requires,
@@ -21,12 +17,12 @@ To use the example `main.py` file:
 
 #### Embedding
 
-> Usage: python3 test_main.py e reference_png_input_image_path secret_input_file_path embedded_png_output_image_path
+> Usage: python3 main.py e reference_png_input_image_path secret_input_file_path embedded_png_output_image_path
 
-> Eg: python test_main.py E mario.png dsts.txt t.png
+> Eg: python main.py E cover.png text.txt input.png
 
 #### Extraction
 
-> Usage: python test_main.py d reference_png_input_image_path secret_output_file_path embedded_png_input_image_path
+> Usage: python main.py d reference_png_input_image_path secret_output_file_path embedded_png_input_image_path
 
-> Eg: python test_main.py D mario.png op.txt t.png
+> Eg: python main.py D cover.png text1.txt input.png
